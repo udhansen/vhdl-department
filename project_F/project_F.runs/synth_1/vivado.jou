@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu May  6 08:51:44 2021
+# Process ID: 26490
+# Current directory: /zhome/d1/3/146501/DSproject/project_F/project_F.runs/synth_1
+# Command line: vivado -log TopModule.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source TopModule.tcl
+# Log file: /zhome/d1/3/146501/DSproject/project_F/project_F.runs/synth_1/TopModule.vds
+# Journal file: /zhome/d1/3/146501/DSproject/project_F/project_F.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source TopModule.tcl -notrace
