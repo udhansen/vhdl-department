@@ -1,0 +1,7 @@
+vhdl work "ipcore_dir/SinusLUT.vhd"
+vhdl work "SigGenDataPath.vhd"
+vhdl work "SigGenControl.vhd"
+vhdl work "SevenSeg5.vhd"
+vhdl work "ClkDiv.vhd"
+vhdl work "SigGenTop.vhd"
+vhdl work "Finally.vhd"

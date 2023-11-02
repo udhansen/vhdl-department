@@ -1,0 +1,9 @@
+V3 3
+FL "C:/Users/ulrik/OneDrive - Danmarks Tekniske Universitet/2. semester/3 ugers - Digitaldesign/SigGenSpiControl/SigGenSpiControl.vhd" 2020/08/12.13:21:21 P.15xf
+EN work/SigGenControl 1597231284 \
+      FL "C:/Users/ulrik/OneDrive - Danmarks Tekniske Universitet/2. semester/3 ugers - Digitaldesign/SigGenSpiControl/SigGenSpiControl.vhd" \
+      PB ieee/std_logic_1164 1335251622 PB ieee/std_logic_arith 1335251623 \
+      PB ieee/STD_LOGIC_UNSIGNED 1335251625
+AR work/SigGenControl/Behavioral 1597231285 \
+      FL "C:/Users/ulrik/OneDrive - Danmarks Tekniske Universitet/2. semester/3 ugers - Digitaldesign/SigGenSpiControl/SigGenSpiControl.vhd" \
+      EN work/SigGenControl 1597231284

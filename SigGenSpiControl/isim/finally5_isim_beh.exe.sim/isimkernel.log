@@ -1,0 +1,10 @@
+Command line:
+   finally5_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51077
+
+Wed Aug 12 13:22:10 2020
+
+
+ Elaboration Time: 0.015625 sec

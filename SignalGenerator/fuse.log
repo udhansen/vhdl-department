@@ -1,0 +1,37 @@
+Running: C:\Xilinx\14.1\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/ulrik/OneDrive - Danmarks Tekniske Universitet/2. semester/3 ugers - Digitaldesign/SignalGenerator/Finally_isim_beh.exe -prj C:/Users/ulrik/OneDrive - Danmarks Tekniske Universitet/2. semester/3 ugers - Digitaldesign/SignalGenerator/Finally_beh.prj work.Finally 
+ISim P.15xf (signature 0xc3576ebc)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/ulrik/OneDrive - Danmarks Tekniske Universitet/2. semester/3 ugers - Digitaldesign/SignalGenerator/ipcore_dir/SinusLUT.vhd" into library work
+Parsing VHDL file "C:/Users/ulrik/OneDrive - Danmarks Tekniske Universitet/2. semester/3 ugers - Digitaldesign/SignalGenerator/SigGenDataPath.vhd" into library work
+Parsing VHDL file "C:/Users/ulrik/OneDrive - Danmarks Tekniske Universitet/2. semester/3 ugers - Digitaldesign/SignalGenerator/SigGenControl.vhd" into library work
+Parsing VHDL file "C:/Users/ulrik/OneDrive - Danmarks Tekniske Universitet/2. semester/3 ugers - Digitaldesign/SignalGenerator/SevenSeg5.vhd" into library work
+Parsing VHDL file "C:/Users/ulrik/OneDrive - Danmarks Tekniske Universitet/2. semester/3 ugers - Digitaldesign/SignalGenerator/ClkDiv.vhd" into library work
+Parsing VHDL file "C:/Users/ulrik/OneDrive - Danmarks Tekniske Universitet/2. semester/3 ugers - Digitaldesign/SignalGenerator/SigGenTop.vhd" into library work
+Parsing VHDL file "C:/Users/ulrik/OneDrive - Danmarks Tekniske Universitet/2. semester/3 ugers - Digitaldesign/SignalGenerator/Finally.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture divclk_arch of entity DivClk [divclk_default]
+Compiling architecture behavioral of entity SigGenControl [siggencontrol_default]
+Compiling package textio
+Compiling package std_logic_textio
+Compiling architecture output_stage_behavioral of entity BLK_MEM_GEN_V7_1_output_stage [\BLK_MEM_GEN_V7_1_output_stage("...]
+Compiling architecture softecc_output_reg_stage_behavioral of entity BLK_MEM_GEN_V7_1_softecc_output_reg_stage [\BLK_MEM_GEN_V7_1_softecc_output...]
+Compiling architecture mem_module_behavioral of entity BLK_MEM_GEN_V7_1_mem_module [\BLK_MEM_GEN_V7_1_mem_module("bl...]
+Compiling architecture behavioral of entity BLK_MEM_GEN_V7_1 [\BLK_MEM_GEN_V7_1("blk_mem_gen_v...]
+Compiling architecture sinuslut_a of entity SinusLUT [sinuslut_default]
+Compiling architecture behavioral of entity SigGenDatapath [\SigGenDatapath(('0','0','0','0'...]
+Compiling architecture sevenseg_arch of entity SevenSeg5 [sevenseg5_default]
+Compiling architecture behavioral of entity SigGenTop [siggentop_default]
+Compiling architecture behavior of entity finally
+Time Resolution for simulation is 1ps.
+Waiting for 9 sub-compilation(s) to finish...
+Compiled 27 VHDL Units
+Built simulation executable C:/Users/ulrik/OneDrive - Danmarks Tekniske Universitet/2. semester/3 ugers - Digitaldesign/SignalGenerator/Finally_isim_beh.exe
+Fuse Memory Usage: 40584 KB
+Fuse CPU Usage: 1593 ms

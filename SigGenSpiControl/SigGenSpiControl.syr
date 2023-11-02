@@ -1,0 +1,489 @@
+Release 14.1 - xst P.15xf (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Reading design: SigGenSpiControl.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "SigGenSpiControl.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "SigGenSpiControl"
+Output Format                      : NGC
+Target Device                      : xc3s100e-4-cp132
+
+---- Source Options
+Top Module Name                    : SigGenSpiControl
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/ulrik/OneDrive - Danmarks Tekniske Universitet/2. semester/3 ugers - Digitaldesign/SigGenSpiControl/SigGenSpiControl.vhd" in Library work.
+Entity <siggenspicontrol> compiled.
+Entity <siggenspicontrol> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <SigGenSpiControl> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <SigGenSpiControl> in library <work> (Architecture <behavioral>).
+Entity <SigGenSpiControl> analyzed. Unit <SigGenSpiControl> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <SigGenSpiControl>.
+    Related source file is "C:/Users/ulrik/OneDrive - Danmarks Tekniske Universitet/2. semester/3 ugers - Digitaldesign/SigGenSpiControl/SigGenSpiControl.vhd".
+    Found finite state machine <FSM_0> for signal <State>.
+    -----------------------------------------------------------------------
+    | States             | 7                                              |
+    | Transitions        | 13                                             |
+    | Inputs             | 4                                              |
+    | Outputs            | 6                                              |
+    | Clock              | Clk                       (rising_edge)        |
+    | Reset              | Reset                     (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | syncs                                          |
+    | Power Up State     | shapes                                         |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 2-bit register for signal <Shape>.
+    Found 8-bit register for signal <Freq>.
+    Found 8-bit register for signal <Ampl>.
+    Found 8-bit register for signal <BUFFreg>.
+    Found 1-bit xor3 for signal <Checksum$xor0000> created at line 272.
+    Found 1-bit xor3 for signal <Checksum$xor0001> created at line 272.
+    Found 1-bit xor3 for signal <Checksum$xor0002> created at line 272.
+    Found 1-bit xor3 for signal <Checksum$xor0003> created at line 272.
+    Found 1-bit xor3 for signal <Checksum$xor0004> created at line 272.
+    Found 1-bit xor3 for signal <Checksum$xor0005> created at line 272.
+    Found 1-bit xor5 for signal <Checksum$xor0006> created at line 272.
+    Found 1-bit xor5 for signal <Checksum$xor0007> created at line 272.
+    Found 8-bit register for signal <nextA>.
+    Found 8-bit register for signal <nextF>.
+    Found 2-bit register for signal <nextS>.
+    Found 2-bit register for signal <ResetOUT>.
+    Found 1-bit register for signal <SCLKold>.
+    Found 8-bit comparator lessequal for signal <State$cmp_le0000> created at line 187.
+    Found 8-bit register for signal <Sync>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred  55 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred   8 Xor(s).
+Unit <SigGenSpiControl> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 10
+ 1-bit register                                        : 1
+ 2-bit register                                        : 3
+ 8-bit register                                        : 6
+# Comparators                                          : 1
+ 8-bit comparator lessequal                            : 1
+# Xors                                                 : 8
+ 1-bit xor3                                            : 6
+ 1-bit xor5                                            : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <State/FSM> on signal <State[1:7]> with one-hot encoding.
+-----------------------
+ State     | Encoding
+-----------------------
+ shapes    | 0000001
+ ampls     | 0001000
+ freqs     | 0000100
+ runs      | 1000000
+ syncs     | 0000010
+ resets    | 0010000
+ checksums | 0100000
+-----------------------
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# Registers                                            : 55
+ Flip-Flops                                            : 55
+# Comparators                                          : 1
+ 8-bit comparator lessequal                            : 1
+# Xors                                                 : 8
+ 1-bit xor3                                            : 6
+ 1-bit xor5                                            : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <SigGenSpiControl> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block SigGenSpiControl, actual ratio is 4.
+FlipFlop BUFFreg_0 has been replicated 1 time(s) to handle iob=true attribute.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 63
+ Flip-Flops                                            : 63
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : SigGenSpiControl.ngr
+Top Level Output File Name         : SigGenSpiControl
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 32
+
+Cell Usage :
+# BELS                             : 29
+#      LUT2                        : 3
+#      LUT2_L                      : 1
+#      LUT3                        : 5
+#      LUT3_L                      : 2
+#      LUT4                        : 14
+#      LUT4_D                      : 1
+#      LUT4_L                      : 2
+#      MUXF5                       : 1
+# FlipFlops/Latches                : 63
+#      FDC                         : 14
+#      FDCE                        : 48
+#      FDP                         : 1
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 31
+#      IBUF                        : 4
+#      OBUF                        : 27
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100ecp132-4 
+
+ Number of Slices:                       41  out of    960     4%  
+ Number of Slice Flip Flops:             62  out of   1920     3%  
+ Number of 4 input LUTs:                 28  out of   1920     1%  
+ Number of IOs:                          32
+ Number of bonded IOBs:                  32  out of     83    38%  
+    IOB Flip Flops:                       1
+ Number of GCLKs:                         2  out of     24     8%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+SCK                                | IBUF+BUFG              | 9     |
+Clk                                | BUFGP                  | 54    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+Reset                              | IBUF                   | 63    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 5.610ns (Maximum Frequency: 178.253MHz)
+   Minimum input arrival time before clock: 5.767ns
+   Maximum output required time after clock: 4.991ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'SCK'
+  Clock period: 1.719ns (frequency: 581.734MHz)
+  Total number of paths / destination ports: 7 / 7
+-------------------------------------------------------------------------
+Delay:               1.719ns (Levels of Logic = 0)
+  Source:            BUFFreg_1 (FF)
+  Destination:       BUFFreg_2 (FF)
+  Source Clock:      SCK rising
+  Destination Clock: SCK rising
+
+  Data Path: BUFFreg_1 to BUFFreg_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              9   0.591   0.820  BUFFreg_1 (BUFFreg_1)
+     FDC:D                     0.308          BUFFreg_2
+    ----------------------------------------
+    Total                      1.719ns (0.899ns logic, 0.820ns route)
+                                       (52.3% logic, 47.7% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Clk'
+  Clock period: 5.610ns (frequency: 178.253MHz)
+  Total number of paths / destination ports: 141 / 73
+-------------------------------------------------------------------------
+Delay:               5.610ns (Levels of Logic = 5)
+  Source:            Sync_5 (FF)
+  Destination:       State_FSM_FFd3 (FF)
+  Source Clock:      Clk rising
+  Destination Clock: Clk rising
+
+  Data Path: Sync_5 to State_FSM_FFd3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             2   0.591   0.622  Sync_5 (Sync_5)
+     LUT3_L:I0->LO         1   0.704   0.104  State_cmp_eq0000103_SW0 (N111)
+     LUT4:I3->O            1   0.704   0.424  State_cmp_eq0000103 (State_cmp_eq0000103)
+     LUT4:I3->O            1   0.704   0.000  State_cmp_eq0000146_SW2_G (N18)
+     MUXF5:I1->O           1   0.321   0.424  State_cmp_eq0000146_SW2 (N71)
+     LUT4:I3->O            1   0.704   0.000  State_FSM_FFd3-In1 (State_FSM_FFd3-In)
+     FDC:D                     0.308          State_FSM_FFd3
+    ----------------------------------------
+    Total                      5.610ns (4.036ns logic, 1.574ns route)
+                                       (71.9% logic, 28.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'SCK'
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Offset:              1.973ns (Levels of Logic = 1)
+  Source:            MOSI (PAD)
+  Destination:       BUFFreg_0 (FF)
+  Destination Clock: SCK rising
+
+  Data Path: MOSI to BUFFreg_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   1.218   0.447  MOSI_IBUF (MOSI_IBUF)
+     FDC:D                     0.308          BUFFreg_0
+    ----------------------------------------
+    Total                      1.973ns (1.526ns logic, 0.447ns route)
+                                       (77.3% logic, 22.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Clk'
+  Total number of paths / destination ports: 7 / 5
+-------------------------------------------------------------------------
+Offset:              5.767ns (Levels of Logic = 5)
+  Source:            SCK (PAD)
+  Destination:       State_FSM_FFd3 (FF)
+  Destination Clock: Clk rising
+
+  Data Path: SCK to State_FSM_FFd3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             4   1.218   0.762  SCK_IBUF (SCK_IBUF1)
+     LUT2:I0->O            4   0.704   0.622  SCLKPuls1 (SCLKPuls)
+     LUT4:I2->O            1   0.704   0.000  State_cmp_eq0000146_SW2_G (N18)
+     MUXF5:I1->O           1   0.321   0.424  State_cmp_eq0000146_SW2 (N71)
+     LUT4:I3->O            1   0.704   0.000  State_FSM_FFd3-In1 (State_FSM_FFd3-In)
+     FDC:D                     0.308          State_FSM_FFd3
+    ----------------------------------------
+    Total                      5.767ns (3.959ns logic, 1.808ns route)
+                                       (68.6% logic, 31.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Clk'
+  Total number of paths / destination ports: 19 / 19
+-------------------------------------------------------------------------
+Offset:              4.991ns (Levels of Logic = 1)
+  Source:            State_FSM_FFd1 (FF)
+  Destination:       SigEN (PAD)
+  Source Clock:      Clk rising
+
+  Data Path: State_FSM_FFd1 to SigEN
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             21   0.591   1.128  State_FSM_FFd1 (State_FSM_FFd1)
+     OBUF:I->O                 3.272          SigEN_OBUF (SigEN)
+    ----------------------------------------
+    Total                      4.991ns (3.863ns logic, 1.128ns route)
+                                       (77.4% logic, 22.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'SCK'
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Offset:              4.683ns (Levels of Logic = 1)
+  Source:            BUFFreg_1 (FF)
+  Destination:       LED<1> (PAD)
+  Source Clock:      SCK rising
+
+  Data Path: BUFFreg_1 to LED<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              9   0.591   0.820  BUFFreg_1 (BUFFreg_1)
+     OBUF:I->O                 3.272          LED_1_OBUF (LED<1>)
+    ----------------------------------------
+    Total                      4.683ns (3.863ns logic, 0.820ns route)
+                                       (82.5% logic, 17.5% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 4.24 secs
+ 
+--> 
+
+Total memory usage is 4503940 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

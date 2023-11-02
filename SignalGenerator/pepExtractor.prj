@@ -1,0 +1,6 @@
+work	"ClkDiv.vhd"
+work	"SevenSeg5.vhd"
+work	"SigGenControl.vhd"
+work	"SigGenDataPath.vhd"
+work	"SigGenTop.vhd"
+work	"ipcore_dir/SinusLUT.vhd"

@@ -1,0 +1,64 @@
+V3 38
+FL "C:/Users/ulrik/OneDrive - Danmarks Tekniske Universitet/2. semester/3 ugers - Digitaldesign/SignalGenerator/BTNdb.vhd" 2020/08/03.14:16:20 P.15xf
+EN work/BTNdb 1596617385 \
+      FL "C:/Users/ulrik/OneDrive - Danmarks Tekniske Universitet/2. semester/3 ugers - Digitaldesign/SignalGenerator/BTNdb.vhd" \
+      PB ieee/std_logic_1164 1335251622 PB ieee/std_logic_arith 1335251623 \
+      PB ieee/STD_LOGIC_UNSIGNED 1335251625
+AR work/BTNdb/Behavioral 1596617386 \
+      FL "C:/Users/ulrik/OneDrive - Danmarks Tekniske Universitet/2. semester/3 ugers - Digitaldesign/SignalGenerator/BTNdb.vhd" \
+      EN work/BTNdb 1596617385
+FL "C:/Users/ulrik/OneDrive - Danmarks Tekniske Universitet/2. semester/3 ugers - Digitaldesign/SignalGenerator/ClkDiv.vhd" 2020/08/12.08:54:00 P.15xf
+EN work/DivClk 1597229175 \
+      FL "C:/Users/ulrik/OneDrive - Danmarks Tekniske Universitet/2. semester/3 ugers - Digitaldesign/SignalGenerator/ClkDiv.vhd" \
+      PB ieee/std_logic_1164 1335251622 PB ieee/std_logic_arith 1335251623 \
+      PB ieee/STD_LOGIC_UNSIGNED 1335251625
+AR work/DivClk/DivClk_arch 1597229176 \
+      FL "C:/Users/ulrik/OneDrive - Danmarks Tekniske Universitet/2. semester/3 ugers - Digitaldesign/SignalGenerator/ClkDiv.vhd" \
+      EN work/DivClk 1597229175
+FL "C:/Users/ulrik/OneDrive - Danmarks Tekniske Universitet/2. semester/3 ugers - Digitaldesign/SignalGenerator/ipcore_dir/SinusLUT.vhd" 2020/08/04.11:35:45 P.15xf
+EN work/SinusLUT 1597229173 \
+      FL "C:/Users/ulrik/OneDrive - Danmarks Tekniske Universitet/2. semester/3 ugers - Digitaldesign/SignalGenerator/ipcore_dir/SinusLUT.vhd" \
+      PB ieee/std_logic_1164 1335251622
+AR work/SinusLUT/SinusLUT_a 1597229174 \
+      FL "C:/Users/ulrik/OneDrive - Danmarks Tekniske Universitet/2. semester/3 ugers - Digitaldesign/SignalGenerator/ipcore_dir/SinusLUT.vhd" \
+      EN work/SinusLUT 1597229173
+FL "C:/Users/ulrik/OneDrive - Danmarks Tekniske Universitet/2. semester/3 ugers - Digitaldesign/SignalGenerator/SevenSeg5.vhd" 2020/08/03.13:41:34 P.15xf
+EN work/SevenSeg5 1597216557 \
+      FL "C:/Users/ulrik/OneDrive - Danmarks Tekniske Universitet/2. semester/3 ugers - Digitaldesign/SignalGenerator/SevenSeg5.vhd" \
+      PB ieee/std_logic_1164 1335251622 PB ieee/std_logic_arith 1335251623 \
+      PB ieee/STD_LOGIC_UNSIGNED 1335251625
+AR work/SevenSeg5/SevenSeg_arch 1597216558 \
+      FL "C:/Users/ulrik/OneDrive - Danmarks Tekniske Universitet/2. semester/3 ugers - Digitaldesign/SignalGenerator/SevenSeg5.vhd" \
+      EN work/SevenSeg5 1597216557
+FL "C:/Users/ulrik/OneDrive - Danmarks Tekniske Universitet/2. semester/3 ugers - Digitaldesign/SignalGenerator/SigGenControl.vhd" 2020/08/12.13:20:30 P.15xf
+EN work/SigGenControl 1597231232 \
+      FL "C:/Users/ulrik/OneDrive - Danmarks Tekniske Universitet/2. semester/3 ugers - Digitaldesign/SignalGenerator/SigGenControl.vhd" \
+      PB ieee/std_logic_1164 1335251622 PB ieee/std_logic_arith 1335251623 \
+      PB ieee/STD_LOGIC_UNSIGNED 1335251625
+AR work/SigGenControl/Behavioral 1597231233 \
+      FL "C:/Users/ulrik/OneDrive - Danmarks Tekniske Universitet/2. semester/3 ugers - Digitaldesign/SignalGenerator/SigGenControl.vhd" \
+      EN work/SigGenControl 1597231232 CP Disp
+FL "C:/Users/ulrik/OneDrive - Danmarks Tekniske Universitet/2. semester/3 ugers - Digitaldesign/SignalGenerator/SigGenDataPath.vhd" 2020/08/06.11:14:43 P.15xf
+EN work/SigGenDatapath 1597216555 \
+      FL "C:/Users/ulrik/OneDrive - Danmarks Tekniske Universitet/2. semester/3 ugers - Digitaldesign/SignalGenerator/SigGenDataPath.vhd" \
+      PB ieee/std_logic_1164 1335251622 PB ieee/std_logic_arith 1335251623 \
+      PB ieee/STD_LOGIC_UNSIGNED 1335251625
+AR work/SigGenDatapath/Behavioral 1597216556 \
+      FL "C:/Users/ulrik/OneDrive - Danmarks Tekniske Universitet/2. semester/3 ugers - Digitaldesign/SignalGenerator/SigGenDataPath.vhd" \
+      EN work/SigGenDatapath 1597216555 CP FreqCnt CP nSigCnt CP work/SinusLUT \
+      CP PWMwrap CP SigSquare CP SigSaw CP Sig CP PWM CP PWMout
+FL "C:/Users/ulrik/OneDrive - Danmarks Tekniske Universitet/2. semester/3 ugers - Digitaldesign/SignalGenerator/SigGenTop.vhd" 2020/08/12.09:05:15 P.15xf
+EN work/SigGenTop 1597216559 \
+      FL "C:/Users/ulrik/OneDrive - Danmarks Tekniske Universitet/2. semester/3 ugers - Digitaldesign/SignalGenerator/SigGenTop.vhd" \
+      PB ieee/std_logic_1164 1335251622
+AR work/SigGenTop/Behavioral 1597216560 \
+      FL "C:/Users/ulrik/OneDrive - Danmarks Tekniske Universitet/2. semester/3 ugers - Digitaldesign/SignalGenerator/SigGenTop.vhd" \
+      EN work/SigGenTop 1597216559 CP work/DivClk CP work/SigGenControl \
+      CP work/SigGenDataPath CP work/SevenSeg5
+FL "C:/Users/ulrik/OneDrive - Danmarks Tekniske Universitet/2. semester/3 ugers - Digitaldesign/SignalGenerator/SpiReg.vhd" 2020/08/05.10:45:44 P.15xf
+EN work/SpiReg 1596617224 \
+      FL "C:/Users/ulrik/OneDrive - Danmarks Tekniske Universitet/2. semester/3 ugers - Digitaldesign/SignalGenerator/SpiReg.vhd" \
+      PB ieee/std_logic_1164 1335251622
+AR work/SpiReg/Behavioral 1596617225 \
+      FL "C:/Users/ulrik/OneDrive - Danmarks Tekniske Universitet/2. semester/3 ugers - Digitaldesign/SignalGenerator/SpiReg.vhd" \
+      EN work/SpiReg 1596617224

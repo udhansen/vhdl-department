@@ -1,0 +1,16 @@
+AR siggendatapath behavioral "C:/Users/ulrik/OneDrive - Danmarks Tekniske Universitet/2. semester/3 ugers - Digitaldesign/SignalGenerator/SigGenDataPath.vhd" sub00/vhpl10 1597216556
+EN siggendatapath NULL "C:/Users/ulrik/OneDrive - Danmarks Tekniske Universitet/2. semester/3 ugers - Digitaldesign/SignalGenerator/SigGenDataPath.vhd" sub00/vhpl05 1597216555
+EN sevenseg5 NULL "C:/Users/ulrik/OneDrive - Danmarks Tekniske Universitet/2. semester/3 ugers - Digitaldesign/SignalGenerator/SevenSeg5.vhd" sub00/vhpl11 1597216557
+AR sevenseg5 sevenseg_arch "C:/Users/ulrik/OneDrive - Danmarks Tekniske Universitet/2. semester/3 ugers - Digitaldesign/SignalGenerator/SevenSeg5.vhd" sub00/vhpl12 1597216558
+AR spireg behavioral "C:/Users/ulrik/OneDrive - Danmarks Tekniske Universitet/2. semester/3 ugers - Digitaldesign/SignalGenerator/SpiReg.vhd" sub00/vhpl15 1596617225
+EN siggencontrol NULL "C:/Users/ulrik/OneDrive - Danmarks Tekniske Universitet/2. semester/3 ugers - Digitaldesign/SignalGenerator/SigGenControl.vhd" sub00/vhpl03 1597231232
+EN siggentop NULL "C:/Users/ulrik/OneDrive - Danmarks Tekniske Universitet/2. semester/3 ugers - Digitaldesign/SignalGenerator/SigGenTop.vhd" sub00/vhpl00 1597216559
+AR siggentop behavioral "C:/Users/ulrik/OneDrive - Danmarks Tekniske Universitet/2. semester/3 ugers - Digitaldesign/SignalGenerator/SigGenTop.vhd" sub00/vhpl13 1597216560
+AR btndb behavioral "C:/Users/ulrik/OneDrive - Danmarks Tekniske Universitet/2. semester/3 ugers - Digitaldesign/SignalGenerator/BTNdb.vhd" sub00/vhpl07 1596617386
+AR sinuslut sinuslut_a "C:/Users/ulrik/OneDrive - Danmarks Tekniske Universitet/2. semester/3 ugers - Digitaldesign/SignalGenerator/ipcore_dir/SinusLUT.vhd" sub00/vhpl09 1597229174
+EN spireg NULL "C:/Users/ulrik/OneDrive - Danmarks Tekniske Universitet/2. semester/3 ugers - Digitaldesign/SignalGenerator/SpiReg.vhd" sub00/vhpl14 1596617224
+AR siggencontrol behavioral "C:/Users/ulrik/OneDrive - Danmarks Tekniske Universitet/2. semester/3 ugers - Digitaldesign/SignalGenerator/SigGenControl.vhd" sub00/vhpl04 1597231233
+EN divclk NULL "C:/Users/ulrik/OneDrive - Danmarks Tekniske Universitet/2. semester/3 ugers - Digitaldesign/SignalGenerator/ClkDiv.vhd" sub00/vhpl01 1597229175
+EN btndb NULL "C:/Users/ulrik/OneDrive - Danmarks Tekniske Universitet/2. semester/3 ugers - Digitaldesign/SignalGenerator/BTNdb.vhd" sub00/vhpl06 1596617385
+EN sinuslut NULL "C:/Users/ulrik/OneDrive - Danmarks Tekniske Universitet/2. semester/3 ugers - Digitaldesign/SignalGenerator/ipcore_dir/SinusLUT.vhd" sub00/vhpl08 1597229173
+AR divclk divclk_arch "C:/Users/ulrik/OneDrive - Danmarks Tekniske Universitet/2. semester/3 ugers - Digitaldesign/SignalGenerator/ClkDiv.vhd" sub00/vhpl02 1597229176

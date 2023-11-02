@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/ulrik/OneDrive - Danmarks Tekniske Universitet/2. semester/3 ugers - Digitaldesign/SignalGenerator/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/ulrik/OneDrive - Danmarks Tekniske Universitet/2. semester/3 ugers - Digitaldesign/SignalGenerator/xst"
+elaborate
+-ifn SigGenDatapath.prj
+-ifmt mixed

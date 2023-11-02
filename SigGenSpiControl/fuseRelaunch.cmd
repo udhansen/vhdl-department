@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/ulrik/OneDrive - Danmarks Tekniske Universitet/2. semester/3 ugers - Digitaldesign/SigGenSpiControl/finally5_isim_beh.exe" -prj "C:/Users/ulrik/OneDrive - Danmarks Tekniske Universitet/2. semester/3 ugers - Digitaldesign/SigGenSpiControl/finally5_beh.prj" "work.finally5" 
